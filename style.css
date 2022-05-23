@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+
+/*Navegacion*/
+.nav-container {
+  /* Default / White */
+
+  background: #ffffff;
+  /* Navbar Shadow */
+
+  box-shadow: 0px 1px 0px #e5e9f2;
+
+  height: 72px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+nav ul {
+  display: flex;
+}
+
+.nav-items li {
+  list-style: none;
+  margin-right: 32px;
+}
+.nav-items li a {
+  color: #18191f;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  /* identical to box height, or 143% */
+
+  font-feature-settings: "salt" on, "liga" off;
+}
+
+nav .logo{
+  margin-left: 6.8125em;
+}
+
+nav .LogIn {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
+  background: #1c1c3b;
+  border-radius: 6px;
+  padding: 0.75em 2em;
+  margin-right: 2em;
+}
+
+.hero-image {
+  position: relative;
+  overflow: hidden;
+}
+.circle {
+  position: relative;
+  left: 0%;
+  top: 3.5em;
+}
+
+.resumen {
+  border-radius: 1%;
+  position: absolute;
+  left: 10%;
+  top: 22%;
+}
+
+.header-container {
+  box-sizing: border-box;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  /* Heading/H1 */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  /* or 136% */
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
+}
+
+header p {
+  /* Lead / Lead 1 */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  font-feature-settings: "salt" on, "liga" off;
+  margin-bottom: 32px;
+}
+
+.hero-content {
+  margin: 16px;
+  width: 35%;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  background: #1c1c3b;
+  border-radius: 6px;
+  padding: 12px 32px;
+}
+
+footer {
+  justify-content: space-between;
+  background-color: #1c1c3b;
+  border: 1px solid #1c1c3b;
+  height: 4.5em;
+  margin-top: auto;
+}
+
+.col1 {
+  width: 163px;
+  height: 45px;
+  padding: 0.75em;
+  margin-left: 6.8125em;
+}
+
+.col2 {
+  /* Body / Body 2 */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #d9dbe1;
+  left: 40%;
+  width: 26em;
+  height: 24px;
+  padding: 0.75em;
+}
+
+.col3 {
+  width: 163px;
+  height: 45px;
+  left: 89%;
+  top: 24px;
+  padding: 0.75em;
+  margin-right: 6.8125em;
+}
+.col3 a {
+  display: inline-block;
+  height: 24;
+  width: 24px;
+  left: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 4.5em;
+}
